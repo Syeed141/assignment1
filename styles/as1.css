@@ -1,0 +1,38 @@
+/* header section  */
+
+body {
+  font-family: "Merriweather", serif;
+}
+
+.first-box {
+
+   
+  width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+  background-image: url(../resources/Banner\ Image.png);
+  background-position: relative;
+  background-size: cover;
+
+  margin: 50px 90px 0px 90px;
+}
+
+.content-f {
+   
+    
+  color: aliceblue;
+  padding-top: 100px;
+  padding-left:45%;
+  
+  font-size: 22px;
+
+  
+}
+.content-f2 {
+  color: aliceblue;
+   padding-left: 35%;
+  padding-top: 0px;
+  font-size: 50px;
+
+  
+}
