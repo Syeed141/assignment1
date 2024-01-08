@@ -28,6 +28,7 @@
 
 .font-inter {
   font-family: "Inter", sans-serif;
+  color: #f00;
 }
 
 .boxof65 {
@@ -124,7 +125,7 @@ padding-left: 40px;
   width: 1370px;
   height: 600px;
 margin-top: 120px;
-margin-left: 110px;
+margin-left: 101px;
 
 
   
@@ -190,4 +191,137 @@ font-style: normal;
   border:none;
   border-radius: 8px;
   background: #F00;
+}
+
+
+.bonus-content{
+
+  width: 1340px;
+  height: 500px;
+  background: #fff;
+  /* border:5px solid black; */
+  display: flex;
+  align-items: center;
+  margin-left: 115px;
+  margin-top: 200px;
+
+
+
+}
+
+
+.btn-b1{
+
+
+
+  
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+
+
+
+}
+
+.btn-b2{
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+
+
+
+}
+
+
+.btn-b3{
+
+  width: 393px;
+  color: rgba(7, 2, 17, 0.60);
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+
+
+
+}
+
+.second-section{
+
+  width: 463px;
+  height: 463px;
+  flex-shrink: 0;
+  margin-left: 45px;
+  border-radius: 463px;
+border: 15px solid #F00;
+
+
+display:flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.image-holder{
+
+  width: 364.844px;
+  height: 364.844px;
+ 
+
+  border-radius: 364.844px;
+background: url(../resources/Ellipse\ 1.png), lightgray -91.279px 0px / 150.038% 100% no-repeat;
+
+
+
+
+}
+
+/* Third section */
+
+.third-section{
+
+margin-left: 95px;
+
+
+}
+
+
+.third-section1{
+
+  font-size: 32px;
+
+}
+
+
+
+.third-section-d2{
+
+  width: 276px;
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+
+
+}
+
+.third-section-d3{
+  width: 140px;
+  height: 140px;
+  flex-shrink: 0;
+  background-image:url(../resources/Group\ 96.png);
+
+
+
+
+
 }
