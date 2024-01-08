@@ -18,7 +18,6 @@
 }
 
 .content-f {
-  
   color: white;
   padding-top: 120px;
 
@@ -27,18 +26,11 @@
   font-size: 22px;
 }
 
-
-.font-inter{
+.font-inter {
   font-family: "Inter", sans-serif;
-
-
-
 }
 
-
-
-.boxof65{
-  
+.boxof65 {
   color: #f00;
   text-align: center;
   /* background-color: aqua; */
@@ -49,88 +41,80 @@
   margin-bottom: 0px;
 }
 
+.belowsixty {
+  color: #f00;
 
-.belowsixty{
-  color: #F00;
-  
- margin-top: 0px;
+  margin-top: 0px;
   text-align: center;
-  
+
   font-size: 40px;
-  
-
 }
-#cat{
-
+#cat {
   color: #070211;
   text-align: center;
   font-family: Inter;
   font-size: 48px;
- 
-
-  
 }
 
-
-.photo{
-
-
+.photo {
   width: 802.9px;
   height: 500px;
   background-image: url(../resources/New\ Year\ Photo.png);
   background-position: center;
-background-size: cover;
-margin-left: 245px;
-
-
-
+  background-size: cover;
+  margin-left: 245px;
 }
 
-
-.midnight-box{
+.midnight-box {
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url(../resources/Vectorrr.png);
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../resources/Vectorrr.png);
   background-size: cover;
   background-position: center;
- 
-margin-top:1000px ;
-margin-left: 100px;
+
+  margin-top: 1000px;
+  margin-left: 100px;
   width: 1320px;
   height: 600px;
- 
-  padding-left: 50px;
 
+  padding-left: 50px;
 }
 
 .t1 {
+  height: 250px;
+  width: 600px;
+  color: #fff;
 
-  
-height:250px;
-width: 600px;
-color: #FFF;
+  font-size: 50px;
 
-font-size: 50px;
-
-font-weight: 800;
-line-height: 88px; /* 137.5% */
-letter-spacing: 7.04px;
-
-
+  font-weight: 800;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
 }
 
-.t2{
-
-
+.t2 {
   width: 550px;
-  color: rgba(255, 255, 255, 0.80);
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+
+.btn{
+
+background-color: transparent;
+border: none;
+color:white;
+text-align: center;
 font-family: Inter;
-font-size: 21px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 166.667% */
+font-size: 20px;
 
-
+text-transform: uppercase;
+padding-top: 50px;
+padding-left: 40px;
 
 
 }
