@@ -5,12 +5,12 @@ body {
 }
 
 .first-box {
-
-   
   width: 1320px;
   height: 600px;
   border-radius: 16px;
-  background-image: url(../resources/Banner\ Image.png);
+  border-radius: 16px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../resources/Banner\ Image.png);
   background-position: relative;
   background-size: cover;
 
@@ -18,21 +18,77 @@ body {
 }
 
 .content-f {
-   
-    padding-top: 120px;
-  color: aliceblue;
+  
+  color: white;
+  padding-top: 120px;
+
   text-align: center;
-  
+
   font-size: 22px;
-  
-  
 }
-.content-f2 {
-  color: aliceblue;
-   
+
+
+.font-inter{
+  font-family: "Inter", sans-serif;
+
+
+
+}
+
+/* .second-box{
+
+
+  width: 1600px;
+  height: 7335px;
+
+
+} */
+
+.boxof65{
+  
+  color: #f00;
+  text-align: center;
+  /* background-color: aqua; */
 
   font-size: 50px;
-text-align: center;
+
+  margin-top: 290px;
+  margin-bottom: 0px;
+}
+
+
+.belowsixty{
+  color: #F00;
+  
+ margin-top: 0px;
+  text-align: center;
+  
+  font-size: 40px;
+  
+
+}
+#cat{
+
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+ 
 
   
+}
+
+
+.photo{
+
+
+  width: 802.9px;
+  height: 500px;
+  background-image: url(../resources/New\ Year\ Photo.png);
+  background-position: center;
+background-size: cover;
+margin-left: 245px;
+
+
+
 }
