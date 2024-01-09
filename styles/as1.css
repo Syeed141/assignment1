@@ -202,7 +202,7 @@ font-style: normal;
   /* border:5px solid black; */
   display: flex;
   align-items: center;
-  margin-left: 115px;
+  margin-left: 190px;
   margin-top: 200px;
 
 
@@ -325,3 +325,171 @@ line-height: 32px; /* 160% */
 
 
 }
+
+
+.image-t2{
+
+
+  color: #070211;
+
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: 0px;
+text-transform: capitalize;
+
+
+
+}
+
+.image-t3{
+
+width:800px;
+
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+
+
+}
+
+
+.text-elements2{
+
+
+margin-left: 170px;
+
+
+}
+
+.image-galary{
+
+  margin-top: 70px;
+  margin-left: 60px;
+  width: 1600px;
+  height: 1400px;
+/* border:5px solid black; */
+
+}
+
+
+
+.images{
+ margin-left: 60px; 
+padding:0px 110px;
+display:grid;
+grid-template-columns: repeat(3,1fr);
+gap:40px;
+
+
+}
+.hv:hover{
+
+border:10px solid blue;
+border-radius: 30px;
+
+
+}
+
+
+/* newsletter */
+
+
+
+
+.newsletter{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 1420px;
+height: 700px;
+flex-shrink: 0;
+/* border:5px solid black; */
+margin-top: 70px;
+margin-left: 200px;
+border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+
+
+
+}
+
+
+#news1{
+
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+
+
+}
+
+#news2{
+
+
+  
+
+  color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+width:800px;
+
+
+
+
+}
+
+
+.btn-special{
+
+  width: 300px;
+height: 72px;
+flex-shrink: 0;
+  border:none;
+  border-radius: 50px;
+  background: #FFF;
+  height: 50px;
+
+}
+
+.btn-special2{
+  
+  position: relative;
+  border:none;
+  width: 100px;
+
+flex-shrink: 0;
+  margin-top:2px;
+  right:24px;
+  border-radius: 0px 30px 30px 0px;
+background: #F00;
+color:#FFF;
+height: 50px;
+
+
+
+}
+
+
+/* .whole-btn{
+display: flex;
+width:400px;
+height: 200px;
+
+
+background-color: aqua;
+} */
