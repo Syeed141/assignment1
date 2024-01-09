@@ -82,6 +82,16 @@
   padding-left: 50px;
 }
 
+.twenty{
+
+  height:323px;
+position: absolute;
+margin-left: 953px;
+margin-top: 73px;
+
+
+}
+
 .t1 {
   height: 250px;
   width: 600px;
@@ -193,14 +203,31 @@ font-style: normal;
   background: #F00;
 }
 
+/* Bonus section below */
+
+.bonus-main {
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+  width: 100%;
+  height:1000px;
+   background: #FFF;
+  position: absolute;
+  margin-top: 1500px;
+ 
+ 
+}
+
+
 
 .bonus-content{
-
+ margin-bottom: 1000px;
   width: 1340px;
-  height: 500px;
+  height: 900px;
   background: #fff;
   /* border:5px solid black; */
   display: flex;
+  position: relative;
   align-items: center;
   margin-left: 190px;
   margin-top: 200px;
@@ -208,6 +235,144 @@ font-style: normal;
 
 
 }
+
+.bonus-main-content h4{
+  display: flex;
+  justify-content: center;
+
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+
+
+}
+
+#holi{
+
+  display: flex;
+  justify-content: center;
+  
+  color: #F00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  padding-right: 10px;
+
+
+
+
+
+}
+
+.holidays{
+
+margin-top: 0px;
+margin-bottom: 0px;
+
+
+
+
+}
+
+.bonus-main-content h2{
+
+  display: flex;
+  justify-content: center;
+
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+
+
+
+}
+
+
+
+ .bonus-main-content p{
+
+  display: flex;
+  justify-content: center;
+/* width:900px; */
+padding-left: 140px;
+padding-right: 140px;
+  color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 160% */
+} 
+
+
+
+
+
+
+
+.one{
+
+
+  margin-top: 286px;
+width: 100%;
+
+height: 329px;
+flex-shrink: 0;
+
+
+}
+
+.two{
+  position: absolute;
+  margin-left: -428px;
+  margin-top: -147px;
+   
+
+
+
+
+}
+.three{
+
+  position: absolute;
+  margin-left: -600px;
+  margin-top: -48px;
+
+
+
+}
+.four{
+
+
+  position: absolute;
+  margin-left: -1300px;
+  margin-top: -74px;
+
+
+
+
+}
+
+.discount{
+
+padding-top: 165px;
+
+
+}
+
+
+
 
 
 .btn-b1{
@@ -512,11 +677,21 @@ justify-content: space-between;
 
 }
 
+.footer-padding{
+
+padding-left:140px;
+padding-right: 140px;
+
+
+
+
+}
+
 
 
 .top-left p{
   width:400px;
-  padding-left: 170px;
+  /* padding-left: 170px; */
   padding-top: 50px;
   color: #FFF;
   font-family: Inter;
@@ -529,7 +704,7 @@ justify-content: space-between;
 
 }
 
-.top-left > #copyright{
+/* .top-left > #copyright{
 
 
 
@@ -539,7 +714,7 @@ justify-content: space-between;
 
 
 
-}
+} */
 
 
 .first-tr p, .second-tr p{
@@ -570,8 +745,8 @@ padding:10px;
 .first-tr{
 
   display: flex;
- 
-padding-right: 500px;
+/*  
+padding-right: 500px; */
 margin-top: 50px;
 
 
@@ -584,7 +759,7 @@ margin-top: 50px;
 
   display: flex;
  
-  padding-right: 90px;
+  /* padding-right: 90px; */
 
   margin-top: -60px;
   
@@ -610,16 +785,15 @@ margin-top: 50px;
 
 .third-tr>button{
   
+  background: transparent;
   margin-top: 260px;
-  width:50px;
-  background:transparent;
-  border: none;
-  color: #FFF;
-  font-family: Inter;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
+
+  text
+
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 
 
 
@@ -653,13 +827,14 @@ border:1px solid rgb(193, 17, 17);
 .footer-icon-section{
 
 
-width: 200px;;
+/* width: 200px;; */
 display:flex;
 
 justify-content:center;
 align-items: center;
-padding-right:250px;
-padding-top: 100px;
+/* padding-right:250px; */
+padding-top: 48px;
+padding-bottom: 48px;
 flex-direction: row;
 row-gap: 1px;
 column-gap: 3em;
@@ -668,3 +843,35 @@ column-gap: 3em;
 
 
 }
+
+.btn-padding{
+
+  padding-top: 50px;
+
+
+
+}
+
+.subscribe-btn  {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+
+hr{
+
+  background: rgba(255, 255, 255, 0.15);
+
+}
+
+
+
